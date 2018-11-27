@@ -1,0 +1,3 @@
+data()
+> air=airquality
+> boxplot(air$temp ~ air$Month, data = air,xlab = "month" , ylab = 'temp",main ="month vs temp")
